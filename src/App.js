@@ -20,7 +20,6 @@ function App() {
                   <Route path="/add-employee" exact component={CreateEmployeeComponent}></Route> 
                   <Route path="/update-employee/:id" exact component={UpdateEmployeeComponent}></Route>
                   <Route path="/view-employee/:id" exact component={ViewEmployeeComponent}></Route>  
-                  <ListEmployeeComponent /> 
                 </Switch>  
             </div>
             <FooterComponent />

@@ -11,11 +11,11 @@ export default class HeaderComponent extends Component {
     
     render() {
         return (
-            <div>
+            <div className="sticky-top">
                 <header>
                     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                     <div>
-                        <a href="https://www.google.com/" className="navbar-brand">Employee Management App</a>
+                        <a href="https://clone-875f2.web.app/" className="navbar-brand">Employee Management App</a>
                     </div>
                     </nav>
                 </header>
